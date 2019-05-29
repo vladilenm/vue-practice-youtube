@@ -8,6 +8,7 @@
   "Exit": "Выйти",
   "Edit": "Редактировать",
   "Menu_Bill": "Счет",
+  "Detail_Title": "Запись",
   "Menu_History": "История",
   "Menu_Planning": "Планирование",
   "Menu_NewRecord": "Новая запись",
@@ -62,5 +63,6 @@
   "FirstLogin": "Для начала войдите в систему",
   "NoUserWithEmail": "Пользователя с таким email не существует",
   "WrongPassword": "Неверный пароль",
-  "EmailInUse": "Email уже занят"
+  "EmailInUse": "Email уже занят",
+  "Error": "Ошибка"
 }

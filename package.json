@@ -15,6 +15,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
     "vue-chartjs": "^3.4.2",
+    "vue-meta": "^1.6.0",
     "vue-router": "^3.0.1",
     "vuejs-paginate": "^2.1.0",
     "vuelidate": "^0.7.4",

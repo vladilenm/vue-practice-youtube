@@ -8,6 +8,7 @@
   "Exit": "Exit",
   "Edit": "Edit",
   "Menu_Bill": "Bill",
+  "Detail_Title": "Detail",
   "Menu_History": "History",
   "Menu_Planning": "Planning",
   "Menu_NewRecord": "New record",
@@ -61,5 +62,6 @@
   "FirstLogin": "First login",
   "NoUserWithEmail": "No user with email",
   "WrongPassword": "Invalid password",
-  "EmailInUse": "Email is already in use"
+  "EmailInUse": "Email is already in use",
+  "Error": "Error"
 }

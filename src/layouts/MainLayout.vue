@@ -33,7 +33,7 @@ export default {
     loading: true
   }),
   async mounted() {
-    if (!Object.keys(this.$store.getters.info).length) {
+    if (!this.$store.getters.info.bill || !this.$store.getters.info.name) {
       await this.$store.dispatch('fetchInfo')
     }
 
