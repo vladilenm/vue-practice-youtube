@@ -10,26 +10,23 @@
 
       <ul class="right hide-on-small-and-down">
         <li>
-          <a
-              class="dropdown-trigger black-text"
-              href="#"
-              data-target="dropdown"
-              ref="dropdown"
-          >
+          <a class="dropdown-trigger black-text" href="#" data-target="dropdown" ref="dropdown">
             {{name}}
             <i class="material-icons right">arrow_drop_down</i>
           </a>
 
-          <ul id='dropdown' class='dropdown-content'>
+          <ul id="dropdown" class="dropdown-content">
             <li>
               <router-link to="/profile" class="black-text">
-                <i class="material-icons">account_circle</i>Профиль
+                <i class="material-icons">account_circle</i>
+                {{'ProfileTitle'|localize}}
               </router-link>
             </li>
             <li class="divider" tabindex="-1"></li>
             <li>
               <a href="#" class="black-text" @click.prevent="logout">
-                <i class="material-icons">assignment_return</i>Выйти
+                <i class="material-icons">assignment_return</i>
+                {{'Exit'|localize}}
               </a>
             </li>
           </ul>
@@ -45,7 +42,7 @@ export default {
   data: () => ({
     date: new Date(),
     interval: null,
-    dropdown: null,
+    dropdown: null
   }),
   methods: {
     async logout() {
