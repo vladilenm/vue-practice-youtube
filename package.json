@@ -10,7 +10,7 @@
     "chart.js": "^2.8.0",
     "core-js": "^2.6.5",
     "firebase": "^5.9.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "materialize-css": "^1.0.0-rc.2",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
